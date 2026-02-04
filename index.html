@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Emily ❤️ | Happy Birthday</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Meta Tags -->
+    <meta property="og:title" content="Happy Birthday Emily ❤️">
+    <meta property="og:description" content="A special surprise made just for you.">
+    <meta property="og:image" content="https://placehold.co/1200x630/FFB6C1/FFFFFF/png?text=For+Emily">
+    <meta property="og:url" content="https://happybirthdayemily.com">
+    <meta name="theme-color" content="#f5f5f7">
+</head>
+
+<body>
+
+    <!-- Floating Background Shapes -->
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- Music Player -->
+    <div id="music-player" class="music-player glass-panel">
+        <div class="player-icon">🎵</div>
+        <div class="player-info">
+            <span class="song-title">Our Song</span>
+            <span class="artist-name">Click to Play</span>
+        </div>
+        <audio id="bg-music" loop>
+            <source src="music.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <!-- Intro Screen -->
+    <div id="intro-screen">
+        <div class="intro-text">For Emily ❤️</div>
+        <button id="enter-btn" class="enter-btn">Start</button>
+    </div>
+
+    <main id="main-content" class="hidden">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-bg-glow"></div>
+            <h1>Happy Birthday<br>Emily</h1>
+            <p class="hero-subtitle">February 9</p>
+
+            <!-- Romantic Message -->
+            <div id="love-counter" class="love-counter glass-panel scroll-reveal">
+                <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Forever starts now</p>
+                <div style="font-size: 1.8rem; font-weight: 700;">You & Me ❤️</div>
+            </div>
+        </section>
+
+        <!-- Letter -->
+        <section>
+            <div class="letter-card glass-panel scroll-reveal">
+                <div class="letter-text">
+                    <p>My Dearest Emily,</p>
+                    <p>Another year around the sun, and you only shine brighter.</p>
+                    <p>I wanted to create something as simple and beautiful as the love you bring into my life. No
+                        distractions, just us and these words.</p>
+                    <p>You are my favorite thought, my calmest moment, and my greatest adventure.</p>
+                </div>
+                <div class="signature">Forever yours,<br>Shahaf</div>
+            </div>
+        </section>
+
+        <!-- Timeline -->
+        <section>
+            <h2 class="section-title scroll-reveal">Our Moments</h2>
+            <div class="timeline">
+                <div class="timeline-item tilt-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel tilt-content">
+                        <span class="timeline-year">The Beginning</span>
+                        <h3>The First Hello</h3>
+                        <p>It started with a simple moment, but I think a part of me knew my life had changed forever.
+                            You walked in, and the rest of the world faded away.</p>
+                    </div>
+                </div>
+                <div class="timeline-item tilt-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel tilt-content">
+                        <span class="timeline-year">The Journey</span>
+                        <h3>Growing Together</h3>
+                        <p>Hand in hand, we've laughed, loved, and learned. Every day with you is a new favorite memory.
+                            My favorite view is, and always will be, you.</p>
+                    </div>
+                </div>
+                <div class="timeline-item tilt-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel tilt-content">
+                        <span class="timeline-year">Today</span>
+                        <h3>Celebrating You</h3>
+                        <p>To the most beautiful soul I know—you deserve the universe. I promise to spend every day
+                            trying to give it to you. Happy Birthday, my love.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "Open When" Cards -->
+        <section>
+            <h2 class="section-title scroll-reveal">Open When...</h2>
+            <div class="love-grid">
+                <div class="glass-envelope scroll-reveal tilt-card" onclick="this.classList.toggle('open')">
+                    <div class="envelope-front tilt-content">
+                        <span class="envelope-label">You need a smile</span>
+                        <span class="envelope-icon">😊</span>
+                    </div>
+                    <div class="envelope-message tilt-content">
+                        <p>Remember that I am always proud of you. You light up every room you walk into.</p>
+                    </div>
+                </div>
+                <div class="glass-envelope scroll-reveal tilt-card" onclick="this.classList.toggle('open')">
+                    <div class="envelope-front tilt-content">
+                        <span class="envelope-label">You miss me</span>
+                        <span class="envelope-icon">📞</span>
+                    </div>
+                    <div class="envelope-message tilt-content">
+                        <p>I'm only a phone call away. Call me right now. I want to hear your voice.</p>
+                    </div>
+                </div>
+                <div class="glass-envelope scroll-reveal tilt-card" onclick="this.classList.toggle('open')">
+                    <div class="envelope-front tilt-content">
+                        <span class="envelope-label">You feel stressed</span>
+                        <span class="envelope-icon">🧘‍♀️</span>
+                    </div>
+                    <div class="envelope-message tilt-content">
+                        <p>Breathe. You can handle anything. I believe in you more than anyone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Golden Ticket -->
+        <section>
+            <div class="ticket-container scroll-reveal">
+                <div class="golden-ticket tilt-card">
+                    <div class="ticket-left tilt-content">
+                        <div class="ticket-title">ADMIT ONE</div>
+                        <div class="ticket-event">Romantic Dinner Date</div>
+                        <div class="ticket-date">Valid: Forever</div>
+                    </div>
+                    <div class="ticket-right tilt-content">
+                        <div class="barcode"></div>
+                        <div class="ticket-code">SHAHAF-EMILY-0902</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title scroll-reveal">Why I Love You</h2>
+            <div class="love-grid">
+                <div class="love-card glass-panel scroll-reveal tilt-card">
+                    <div class="love-icon tilt-content">✨</div>
+                    <h3 class="tilt-content">Your Spirit</h3>
+                    <p class="tilt-content">Kind, resilient, and beautifully unique.</p>
+                </div>
+                <div class="love-card glass-panel scroll-reveal tilt-card">
+                    <div class="love-icon tilt-content">🧠</div>
+                    <h3 class="tilt-content">Your Mind</h3>
+                    <p class="tilt-content">Brilliant, curious, and always inspiring me.</p>
+                </div>
+                <div class="love-card glass-panel scroll-reveal tilt-card">
+                    <div class="love-icon tilt-content">❤️</div>
+                    <h3 class="tilt-content">Your Heart</h3>
+                    <p class="tilt-content">Pure gold. You love so strictly and deeply.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final -->
+        <section class="final-section">
+            <div class="glass-panel scroll-reveal tilt-card"
+                style="padding: 4rem 2rem; display: inline-block; max-width: 600px;">
+                <div class="love-icon heartbeat tilt-content" style="font-size: 3rem; margin-bottom: 1rem;">❤️</div>
+                <h2 class="tilt-content" style="margin-bottom: 2rem;">One Last Wish</h2>
+                <button id="surprise-btn" class="magic-btn tilt-content">Make a Wish</button>
+                <div id="hidden-message" class="final-msg hidden tilt-content" style="margin-top: 2rem;">
+                    <h3 style="font-size: 2rem; margin-bottom: 1rem;">I Love You, Emily.</h3>
+                    <p style="font-size: 1.2rem; line-height: 1.6;">Here's to a lifetime of birthdays together, my love.
+                        You make every day feel like a celebration.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Back to Top Button -->
+    <div id="back-to-top" title="Back to top">↑</div>
+
+    <!-- Footer -->
+    <footer class="footer glass-panel scroll-reveal">
+        <p>Made with love for Emily <span class="footer-heart">❤️</span></p>
+    </footer>
+
+    <canvas id="confetti-canvas"
+        style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:999;"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
